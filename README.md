@@ -10,6 +10,9 @@ var HOUR = 60 * MINUTE
 var DAY = 24 * HOUR
 var WEEK = 7 * DAY
 var YEAR = DAY * 365.24
+var NORMAL_YEAR = DAY * 365
+var LEAP_YEAR = DAY * 366
+var DECADE = 10 * YEAR
 var HALF_YEAR = YEAR/2
 var AVERAGE_MONTH = YEAR/12
 
@@ -20,7 +23,9 @@ module.exports = {
     ,   DAY : DAY
     ,   WEEK : WEEK
     ,   YEAR : YEAR
-    ,   DECADE : 10 * YEAR
+    ,   NORMAL_YEAR : NORMAL_YEAR
+    ,   LEAP_YEAR : LEAP_YEAR
+    ,   DECADE : DECADE
     ,   HALF_YEAR: HALF_YEAR
     ,   AVERAGE_MONTH : AVERAGE_MONTH
 
