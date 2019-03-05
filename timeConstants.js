@@ -1,16 +1,16 @@
-'use strict'
+'use strict';
 
-var SECOND = 1000
-var MINUTE = 60 * SECOND
-var HOUR = 60 * MINUTE
-var DAY = 24 * HOUR
-var WEEK = 7 * DAY
-var YEAR = DAY * 365.24
-var NORMAL_YEAR = DAY * 365
-var LEAP_YEAR = DAY * 366
-var DECADE = 10 * YEAR
-var HALF_YEAR = YEAR/2
-var AVERAGE_MONTH = YEAR/12
+const SECOND = 1000;
+const MINUTE = 60 * SECOND;
+const HOUR = 60 * MINUTE;
+const DAY = 24 * HOUR;
+const WEEK = 7 * DAY;
+const YEAR = DAY * 365.24;
+const NORMAL_YEAR = DAY * 365;
+const LEAP_YEAR = DAY * 366;
+const DECADE = 10 * YEAR;
+const HALF_YEAR = YEAR/2;
+const AVERAGE_MONTH = YEAR/12;
 
 module.exports = {
         SECOND: SECOND
@@ -29,4 +29,4 @@ module.exports = {
     // See: http://ecma-international.org/ecma-262/5.1/#sec-15.9.1.1
     ,   MIN_DATE : new Date(-8.64E15)
     ,   MAX_DATE : new Date(8.64E15)
-}
+};
