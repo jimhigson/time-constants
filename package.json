@@ -1,6 +1,6 @@
 {
   "name": "time-constants",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Some constants for convenient amounts of time, all in ms",
   "main": "timeConstants.js",
   "scripts": {
